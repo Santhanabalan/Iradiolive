@@ -1,0 +1,16 @@
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.cards h6 {
+    font-weight:lighter;
+}
+.cards:hover {
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.cards:hover h6 {
+    font-weight:lighter;
+    color: white;
+}
